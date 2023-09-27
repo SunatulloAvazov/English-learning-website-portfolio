@@ -1,0 +1,126 @@
+.logo {
+    width: 500px;
+    height: 90px;
+    border: none;
+    margin: 0;
+}
+
+.sections {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    height: 480px;
+    width: 680px;
+    border-radius: 2%;
+    background-color: whitesmoke;
+    border: solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 200px;
+     
+}
+.words {
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+}
+
+.words > h1 {
+    font-size: 4rem;
+    margin: 0;
+    background-color: mediumslateblue;
+}
+
+@media (min-width: 250px) and (max-width: 480px) {
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+    img {
+        width: 300px;
+        height: 200px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius: 5%;
+        border-style:ridge;
+    }
+
+    .sections {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 0;
+    
+    }
+    footer > p {
+        margin-top: 43%;
+        margin-left: 0;
+        text-align: center;
+        font-size: 12px;
+    }    
+    .words > h1 {
+        font-size: 2rem;
+        margin: 0;
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+
+    .logo {
+        width: 350px;
+        height: 65px;
+        border: none;
+        margin: 0;
+    }
+    .sections {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    footer {
+        text-align: center;
+        margin: 0;
+    }
+    
+    img {
+        height: 380px;
+        width: 550px;
+        border-radius: 2%;
+        background-color: whitesmoke;
+        border: solid black;
+        margin-left: 350px;
+        margin-right: 500px;
+        margin-bottom: 200px;
+         
+    }
+    .words {
+        text-align: center;
+        font-size: 2rem;
+        position: relative;
+    }
+    
+    .words > h1 {
+        font-size: 3rem;
+        margin: 0;
+        background-color: aquamarine;
+    }
+}

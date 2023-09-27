@@ -1,0 +1,113 @@
+.logo {
+    width: 500px;
+    height: 90px;
+    border: none;
+    margin: 0;
+}
+.sections {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+
+}
+
+footer > p {
+    margin-top: 25%;
+    margin-left: 0;
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 5%;
+    border-style:ridge;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+div > h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    background-color: burlywood;
+}
+@media (min-width: 280px) and (max-width: 480px) {
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+    img {
+        width: 130px;
+        height: 90px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius: 5%;
+        border-style:ridge;
+    }
+    div > h1 {
+        font-size: 2rem;
+        margin: 0;
+        text-align: center;
+        background-color: burlywood;
+    }
+    .sections {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 0;
+    
+    }
+    footer > p {
+        margin-top: 60%;
+        margin-left: 0;
+        text-align: center;
+        font-size: 12px;
+    }    
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .logo {
+        width: 350px;
+        height: 65px;
+        border: none;
+        margin: 0;
+    }
+    .sections {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    footer {
+        text-align: center;
+        margin: 0;
+    }
+    img {
+        justify-content: center;
+        width: 400px;
+        height: 250px;
+        margin-left: 150px;
+        margin-top: 30px;
+        border-radius: 5%;
+        border-style:ridge;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    div > h1 {
+        font-size: 3rem;
+        margin: 0;
+        text-align: center;
+        background-color: burlywood;
+    }
+}
